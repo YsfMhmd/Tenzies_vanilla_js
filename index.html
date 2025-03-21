@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Tenzies</h1>
+                <p>
+                    Roll until all dice are the same. Click each die to freeze
+                    it at its current value between rolls.
+                </p>
+            </header>
+            <main>
+                <button class="die"></button><button class="die"></button
+                ><button class="die"></button><button class="die"></button
+                ><button class="die"></button><button class="die"></button
+                ><button class="die"></button><button class="die"></button
+                ><button class="die"></button><button class="die"></button>
+            </main>
+            <button id = "control-button" class="control-button">Roll</button>
+        </div>
+        <footer>
+            <h3>
+                <a target="blank" href="https://github.com/YsfMhmd/Tenzies"
+                    >Tenzies game</a
+                >
+                is created by
+                <a target="blank" href="https://github.com/YsfMhmd"
+                    >Yusuf Mohamed</a
+                >
+            </h3>
+        </footer>
+        <canvas id="my-canvas" ></canvas>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script> -->
+        <script type="module" src="/src/main.js"></script>
+
+    </body>
+</html>

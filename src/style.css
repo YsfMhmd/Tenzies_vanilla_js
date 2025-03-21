@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #0B2434;
+        overflow:hidden;
+}
+.container{
+  background-color: #F5F5F5;
+  padding: 34px;
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 12px;  
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+header h1 {
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: -2.5px;
+    color: #2b283a;
+    margin-bottom: 0.5rem;
+}
+header p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: -0.75px;
+    text-align: center;
+    color:#4A4E74;
+}
+footer{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color:beige;
+}
+footer > h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+footer >h3> a{
+    color:beige;
+}
+button.control-button{
+    background-color: #5035FF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:4px;
+    padding: 12px 2rem;
+    color: #ffffff;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    margin-top: 1.5rem;
+    filter: drop-shadow(0 4px 8px #0000002E)
+}
+button.die {
+    width: 3rem;
+    height:3rem;
+    background-color: #ffffff;
+    color: #2b283a;
+    border-radius: 4px;
+    filter: drop-shadow(0 2px 2px #00000026);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Karla;
+    text-align: center;
+    padding: 6px 15px;
+    border: none;
+}
+button.die.freezed {
+    background-color: #59e391;
+}
+canvas{
+  width:100% !important;
+  height: 100vh !important;
+  overflow: hidden;
+  padding: 0;
+}
